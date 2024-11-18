@@ -1,8 +1,9 @@
 body {
+  align-items: center;
   background-color: bisque;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  justify-content: center;
   margin: 0;
 }
 
@@ -10,7 +11,7 @@ header {
   align-items: center;
   display: flex;
   height: 10%;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 header h1 {
@@ -32,5 +33,52 @@ button {
 }
 
 .content {
-  height: 90%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.content img {
+  width: 100%;
+}
+
+.content .card {
+  top: 60px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 100px 100px;
+  padding-bottom: 40px;
+  position: absolute;
+  width: 600px;
+}
+
+.card .action {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 40px;
+  padding-bottom: 0px;
+}
+
+.content .invite {
+  color: white;
+  font-size: x-large;
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.content .attribution {
+  bottom: 5px;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
 }
