@@ -32,22 +32,22 @@ button {
   margin: 0 20px;
 }
 
-.content {
+#content {
   align-items: center;
   display: flex;
   flex-direction: column;
   position: relative;
 }
 
-.content img {
+#content img {
   width: 100%;
 }
 
-.content .card {
+#content .card {
   top: 60px;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 100px 100px;
-  padding-bottom: 40px;
+  padding-bottom: 55px;
   position: absolute;
   width: 600px;
 }
@@ -55,11 +55,11 @@ button {
 .card .action {
   display: flex;
   justify-content: space-between;
-  padding: 60px 40px;
+  padding: 60px 30px;
   padding-bottom: 0px;
 }
 
-.content .invite {
+#content .invite {
   color: white;
   font-size: x-large;
   margin: 0;
@@ -67,7 +67,7 @@ button {
   padding-left: 20px;
 }
 
-.content .attribution {
+#content .attribution {
   bottom: 5px;
   margin: 0;
   position: absolute;
