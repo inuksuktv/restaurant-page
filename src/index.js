@@ -6,6 +6,8 @@ import { buildAboutPage } from "./aboutPage.js";
 function landingPageClick() {
     contentDiv.innerHTML = "";
     buildLandingPage();
+    const menuButton = document.getElementsByClassName('menu-button');
+    menuButton[0].addEventListener('click', menuPageClick);
 }
 
 function menuPageClick() {

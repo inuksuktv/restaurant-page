@@ -32,6 +32,7 @@ export function buildLandingPage() {
 
   // Create the "Browse menu" button
   const browseButton = document.createElement('button');
+  browseButton.classList.add('menu-button');
   browseButton.textContent = 'Browse menu';
 
   // Add buttons to the action container
