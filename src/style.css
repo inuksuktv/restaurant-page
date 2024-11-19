@@ -44,7 +44,9 @@ button {
 
 #content .card {
   top: 60px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: large;
   padding: 100px 100px;
   padding-bottom: 55px;
   position: absolute;
@@ -59,7 +61,6 @@ button {
 }
 
 #content .invite {
-  color: white;
   font-size: x-large;
   margin: 0;
   padding-top: 20px;
@@ -104,5 +105,23 @@ a:visited {
 }
 
 h4 {
+  font-size: large;
+}
+
+.about-card {
+  background-color: rgba(250, 250, 251, 0.8);
+  color: rgb(2, 90, 78);
+  padding: 100px 100px;
+  position: absolute;
+  top: 60px;
+  width: 600px;
+}
+
+.about-card h2 {
+  font-size: x-large;
+  padding: 50px 0px;
+}
+
+.about-card p {
   font-size: large;
 }
